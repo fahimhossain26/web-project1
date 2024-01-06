@@ -5,12 +5,31 @@ body{
 .btn-primary{
     border-radius: 5px;
     background: #FD6E0A;
-    border: 0;
+    border: 0;  
     color:white;
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
    
+}
+
+.section-title{
+    color:  #181818;
+text-align: center;
+
+font-size: 35px;
+
+font-weight: 700;
+
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+   
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
 }
 /* nav related style */
 nav{
@@ -49,13 +68,48 @@ nav a{
 
 .header{
     background-color: #FFF8F3;   
+    background-image: url('images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+   
+   
+    
 }
+
 .banner{
-     padding: 30px 30px 30px 150px; 
+     padding: 30px 30px 0px 150px; 
      display: flex;
      align-items: center;
+     justify-content: space-between;
 }
+.banner-content{max-width:500px; }
 .banner .profile{
-    width: 400px;
-  height: 400px;
+    width: 500px;
+  
+}
+.banner-greeting{
+    font-size: 45px;
+    margin-bottom: 0;
+}
+.banner-title{
+    font-size: 75px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-weight: 700; 
+}
+
+.banner-description{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* Main section styles */
+
+/* about section styles */
+.about{
+    padding: 130px;
+    margin: 130px 0;
+    background: #FFF8f3;
+
+    border-radius: 10px;
 }
