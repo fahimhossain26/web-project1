@@ -104,7 +104,14 @@ nav a{
 }
 
 /* Main section styles */
-
+ main{
+    max-width: 1140px;
+    margin: 0 auto ;
+    
+ }
+ main section{
+    margin-top: 130px;
+ }
 /* about section styles */
 .about{
     padding: 130px;
@@ -113,3 +120,62 @@ nav a{
 
     border-radius: 10px;
 }
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+
+}
+
+/* skill related style  */
+#what-I-do-Description{
+    padding: 30px 150px;
+}
+.skill-container{
+    display: flex;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    gap: 24px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-description{
+    
+}
+
+/* resumi Scetion  */
+
+.resume-container{
+display: flex;
+gap: 50px;
+}
+.resume-colum-title{
+    color: var #474747;
+
+font-size: 30px;
+
+font-weight: 700;
+
+}
+
+.resume-item-institute ,.resume-item-description{ color:  #757575;}
+.resume-item-institute{margin-bottom: 20px;}
+.resume-item-title{ 
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-item-description{}
+.resume-container{
+    margin:30px;
+}
+
+.download-cv{
+    text-align: center;
+}
+
+
